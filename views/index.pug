@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet", href="css/style.css">
+    <link rel="stylesheet", href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js" defer></script>
+    <script src="js/jquery.js" defer></script>
+</head>
+<body>
+    <h1>Вход</h1>
+    <div id="login">
+        <form action="/login" method="post">
+            <div>
+                <label>Имя пользователя:</label>
+                <input type="text" name="username"/>
+            </div>
+            <div>
+                <label>Пароль:</label>
+                <input type="password" name="password"/>
+            </div>
+            <div id="inline">
+                <button type="submit" class="btn btn-primary">Войти</button>
+            </div>
+        </form>
+    </div>
+    <div id="transition_to_registration">
+        <form action="/transition_to_registration" method="post">
+            <div id="inline">
+                <button type="submit" class="btn btn-danger">Зарегистрироватся</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

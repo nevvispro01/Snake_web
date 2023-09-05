@@ -1,0 +1,23 @@
+{
+  "name": "tic_tac_toe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.18.2",
+    "express-session": "^1.17.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.1.2",
+    "nodemon": "^2.0.4",
+    "pg": "^8.9.0",
+    "pug": "^3.0.0",
+    "socket.io": "^2.3.0"
+  }
+}
